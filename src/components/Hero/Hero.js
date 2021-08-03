@@ -13,9 +13,9 @@ const Hero = () => {
           type="image/jpg"
           srcSet='/images/hero-img@1x.jpg 1x, /images/hero-img@2x.jpg 2x, /images/hero-img@3.jpg 3x'
         />
-        <HeroImage src="/images/hero-img.jpg" />
+        <HeroImage src="/images/hero-img.jpg" alt='' />
       </picture>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt='' />
     </Wrapper>
   );
 };
