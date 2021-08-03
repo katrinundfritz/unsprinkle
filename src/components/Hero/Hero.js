@@ -10,10 +10,10 @@ const Hero = () => {
           srcSet='/images/hero-img@1x.avif 1x, /images/hero-img@2x.avif 2x, /images/hero-img@3.avif 3x'
         />
         <source
-          type="image/jpg"
+          type="image/jpeg"
           srcSet='/images/hero-img@1x.jpg 1x, /images/hero-img@2x.jpg 2x, /images/hero-img@3.jpg 3x'
         />
-        <HeroImage src="/images/hero-img.jpg" alt='' />
+        <HeroImage src="/images/hero-img.jpg" alt='An example of the photos distributed through this site (cat on black background) ' />
       </picture>
       <Swoop src="/swoop.svg" alt='' />
     </Wrapper>
